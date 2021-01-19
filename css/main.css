@@ -1,0 +1,176 @@
+
+/* Page instructions*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+body{
+  background-color: lightgrey;
+}
+
+
+/* Header */
+
+header{
+  padding: 10px 20px;
+  background-color: white;
+}
+
+#logo{
+  height: 50px;
+  vertical-align: middle;
+}
+
+#logo-text{
+  font-family: Arial, Verdana;
+  height: 50px;
+  font-weight: bold;
+  font-size: 45px;
+  vertical-align: middle;
+}
+
+/* Nav */
+
+nav{
+  margin-top: 60px;
+  padding: 25px 0px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+
+nav a{
+  text-decoration: none;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+
+#tasto1{
+  font-family: Verdana, Arial;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(30, 160, 254);
+  margin-left: 80px;
+  font-weight: bold;
+}
+
+#tasto2{
+  font-family: Verdana, Arial;
+  font-size: 12px;
+  color: rgb(218, 218, 218);
+  border: 1px solid grey;
+  font-weight: bold;
+}
+
+
+/* Main */
+
+main{
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+section{
+  margin: 35px 35px 35px 70px;
+}
+
+section ul{
+  list-style: none;
+  margin-top: 10px;
+}
+
+section ul li{
+  margin-top: 20px;
+}
+
+.news{
+  font-family: Verdana, Arial;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(78, 78, 78)
+}
+
+.simbolo-ok{
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 3px;
+  border: 1px solid black;
+  color: green;
+  border-color: green;
+}
+
+.simbolo-croce{
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 3px;
+  border: 1px solid black;
+  color: red;
+  border-color: red;
+}
+
+.editorial{
+  font-size: 15px;
+  color:white;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 25px;
+  background: #4e71ba;
+}
+
+.goals{
+  font-size: 15px;
+  color:white;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: rgba(177, 5, 176, 0.64);
+
+}
+
+.recruiting{
+  font-size: 15px;
+  color:white;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: #03bb85;
+}
+
+.mobile{
+  font-size: 15px;
+  color:white;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: orange;
+}
+
+.website{
+  font-size: 15px;
+  color:white;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: rgb(224, 28, 241);
+}
+
+.sales{
+  font-size: 15px;
+  color:white;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: #a2a303;
+}
+
+.text-second{
+  font-family: Verdana, Arial;
+  font-size: 20px;
+  margin-left: 10px;
+}
